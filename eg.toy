@@ -1,0 +1,34 @@
+var := 1;
+
+{IF var == 1 THEN
+	data := 2;
+	IF data < 1 THEN
+		data := data + 1
+	ELSE
+		data := 3
+	END;
+ELSE
+	data := 1
+END;}
+
+WHILE var <= 4 DO
+	data := 0;
+	WHILE data <= var DO
+		PRINT data;
+		data := data + 1
+	DONE;
+	PRINTLN;
+	var := var + 1
+DONE;
+
+PRINT var;
+PRINTLN;
+PRINT - data;
+PRINTLN;
+
+{PRINT ""STRING"";
+PRINTLN;}
+
+{PRINT data;
+PRINTLN;}
+{PRINT "FACTORIAL";}
