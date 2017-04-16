@@ -1,2 +1,2 @@
 # Interpreter
-Toy language interpreter
+Toy-language Interpreter
